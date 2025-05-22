@@ -2,6 +2,92 @@
 <html>
 <head>
   <title>DeathKnight</title>
+<style>
+body {
+	background-color: powderblue;
+	font-family: arial;
+	color:black;
+	text-align: center;
+}
+header {
+	background-color: tomato;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+h1 {
+	color: navy;
+	font-size: 36px;
+}
+p{
+	font-size: 18px;
+}
+img{
+	width: 125px;
+	height: 200px;
+	border-radius: 50%;
+	border: 3px solid green;
+	margin-top: 10px;
+}
+.table-style1 {
+	width: 80%;
+	margin: 20px auto;
+	border: 2px solid navy;
+}
+.table-style1 th, .table-style1 td {
+	border: 1px solid navy;
+	padding: 10px;
+	text-align: center;
+}
+.table-style1 th {
+	background-color: lightblue;
+}
+.table-style2 {
+	width: 60%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	border: 2px solid darkgreen;
+}
+.table-style2 th, .table-style2 td {
+	border: 1px solid darkgreen;
+	padding: 10px;
+	text-align: center;
+}
+.table-style2 th {
+	background-color: lightgreen;
+}
+.about {
+	width: 60%;
+	margin: 20px auto;
+	text-align: left;
+}
+div.mycontainer {
+	width:66%;
+	overflow:auto;
+}
+div.mycontainer div {
+	width:50%;
+	float:left;
+}
+.video {
+	width: 39%;
+	margin: 10px auto;
+	text-align: center;
+	border: 3px solid green;
+}
+.list-style1 {
+	list-style-type: square;
+	color: darkblue;
+	text-align: left;
+	margin: 20px;
+}
+.list-style2 {
+	list-style-type: circle;
+	color: darkgreen;
+	text-align: left;
+	margin: 20px;
+}
+</style>
 </head>
 <body>
 <header>
@@ -16,16 +102,16 @@ AGE: 34
 Location: Kansas City
 </pre>
 </header>
-<section>
+<section class="about">
   <p>My Favorite Website:
 <a href="https://www.amazon.com/" target="_blank">Amazon</a>
 <a href=" barraganpatrick14@gmail.com" target="_blank">barraganpatrick14@gmail.com</a>
 <a href=" https://en.wikipedia.org/wiki/Family" target="_blank">
-  <img src="https://github.com/PatBarragan90/King-Kong/blob/main/facebook_1747672644808_7330270364811123601.jpg?raw=true" alt="Family"></a>
+  <img src="https://github.com/PatBarragan90/King-Kong/blob/main/facebook_1747672644808_7330270364811123601.jpg?raw=true" alt="Family" title ="Wikipedia"></a>
     </section>
 <hr>
 <h2>MyHobbies</h2>
-<table>
+<table class="table-style1">
 <tr>
 <th>Hobbies</th>
 <th>12hours/week</th>
@@ -40,7 +126,7 @@ Location: Kansas City
 </tr>
 </table>
 <h2>My Favorite Movies</h2>
-<table>
+<table class="table-style2">
 <tr>
 <th>Movie</th>
 <th>Year</th>
@@ -54,20 +140,26 @@ Location: Kansas City
 <td>2024</td>
 </tr>
 </table>
+<div class ="mycontainer">
+<div>
 <h2>My Favorite Foods</h2>
-<ul>
+<ul class="list-style1">
 <li>Pizza</li>
 <li>lasagna</li>
 <li>Chicken Parmesan</li>
 <li>Chicken Alfredo</li>
 </ul>
-<h2My Favorite Drinks</h2>
-<ul>
+</div>
+<div>
+<h2>My Favorite Drinks</h2>
+<ul class="list-style2">
 <li>Dr Pepper Cream Soda</li>
 <li>Iced Coffee</li>
 <li>Iced Tea</li>
 </ul>
-<section>
+</div>
+</div>
+<section class ="video">
 <h2>My Favorite Video</h2>
 <video width="480" height="360" controls>
 <source src="https://github.com/PatBarragan90/King-Kong/blob/main/Download.mp4?raw=True">
@@ -75,6 +167,6 @@ your browser does not support this video tag.
 </video>
 </section>
 <h2>Embedded Website</h2>
-<iframe src="https://www.italia.it/en/tuscany" width="600" height="400" style="border:none;"><iframe>
+<iframe src="https://fox4kc.com/" width="600" height="400" style="border:none;"><iframe>
 </body>
 </html>
